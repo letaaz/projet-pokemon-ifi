@@ -1,0 +1,191 @@
+# Created by https://www.gitignore.io/api/intellij
+# Edit at https://www.gitignore.io/?templates=intellij
+
+### Intellij ###
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and WebStorm
+# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+
+# User-specific stuff
+04-jpa/.idea/**/workspace.xml
+04-jpa/.idea/**/tasks.xml
+04-jpa/.idea/**/usage.statistics.xml
+04-jpa/.idea/**/dictionaries
+04-jpa/.idea/**/shelf
+
+05-gui/.idea/**/workspace.xml
+05-gui/.idea/**/tasks.xml
+05-gui/.idea/**/usage.statistics.xml
+05-gui/.idea/**/dictionaries
+05-gui/.idea/**/shelf
+
+06-async/.idea/**/workspace.xml
+06-async/.idea/**/tasks.xml
+06-async/.idea/**/usage.statistics.xml
+06-async/.idea/**/dictionaries
+06-async/.idea/**/shelf
+
+fight-service/.idea/**/workspace.xml
+fight-service/.idea/**/tasks.xml
+fight-service/.idea/**/usage.statistics.xml
+fight-service/.idea/**/dictionaries
+fight-service/.idea/**/shelf
+
+# Generated files
+04-jpa/.idea/**/contentModel.xml
+05-gui/.idea/**/contentModel.xml
+06-async/.idea/**/contentModel.xml
+fight-service/.idea/**/contentModel.xml
+
+# Sensitive or high-churn files
+04-jpa/.idea/**/dataSources/
+04-jpa/.idea/**/dataSources.ids
+04-jpa/.idea/**/dataSources.local.xml
+04-jpa/.idea/**/sqlDataSources.xml
+04-jpa/.idea/**/dynamic.xml
+04-jpa/.idea/**/uiDesigner.xml
+04-jpa/.idea/**/dbnavigator.xml
+
+05-gui/.idea/**/dataSources/
+05-gui/.idea/**/dataSources.ids
+05-gui/.idea/**/dataSources.local.xml
+05-gui/.idea/**/sqlDataSources.xml
+05-gui/.idea/**/dynamic.xml
+05-gui/.idea/**/uiDesigner.xml
+05-gui/.idea/**/dbnavigator.xml
+
+06-async/.idea/**/dataSources/
+06-async/.idea/**/dataSources.ids
+06-async/.idea/**/dataSources.local.xml
+06-async/.idea/**/sqlDataSources.xml
+06-async/.idea/**/dynamic.xml
+06-async/.idea/**/uiDesigner.xml
+06-async/.idea/**/dbnavigator.xml
+
+fight-service/.idea/**/dataSources/
+fight-service/.idea/**/dataSources.ids
+fight-service/.idea/**/dataSources.local.xml
+fight-service/.idea/**/sqlDataSources.xml
+fight-service/.idea/**/dynamic.xml
+fight-service/.idea/**/uiDesigner.xml
+fight-service/.idea/**/dbnavigator.xml
+# Gradle
+04-jpa/.idea/**/gradle.xml
+05-gui/.idea/**/libraries
+06-async/.idea/**/libraries
+fight-service/.idea/**/libraries
+
+# Gradle and Maven with auto-import
+# When using Gradle or Maven with auto-import, you should exclude module files,
+# since they will be recreated, and may cause churn.  Uncomment if using
+# auto-import.
+# .idea/modules.xml
+# .idea/*.iml
+# .idea/modules
+
+# CMake
+04-jpa/cmake-build-*/
+05-gui/cmake-build-*/
+06-async/cmake-build-*/
+fight-service/cmake-build-*/
+
+# Mongo Explorer plugin
+04-jpa/.idea/**/mongoSettings.xml
+05-gui/.idea/**/mongoSettings.xml
+06-async/.idea/**/mongoSettings.xml
+fight-service/.idea/**/mongoSettings.xml
+
+# File-based project format
+04-jpa/*.iws
+05-gui/*.iws
+06-async/*.iws
+fight-service/*.iws
+
+# IntelliJ
+04-jpa/out/
+05-gui/out/
+06-async/out/
+fight-service/out/
+
+# mpeltonen/sbt-idea plugin
+04-jpa/.idea/replstate.xml
+05-gui/.idea/replstate.xml
+06-async/.idea/replstate.xml
+fight-service/.idea/replstate.xml
+
+# JIRA plugin
+04-jpa/atlassian-ide-plugin.xml
+05-gui/atlassian-ide-plugin.xm
+06-async/atlassian-ide-plugin.xml
+fight-service/atlassian-ide-plugin.xml
+
+
+# Cursive Clojure plugin
+04-jpa/.idea/replstate.xml
+05-gui/.idea/replstate.xml
+06-async/.idea/replstate.xml
+fight-service/.idea/replstate.xml
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+04-jpa/com_crashlytics_export_strings.xml
+04-jpa/crashlytics.properties
+04-jpa/crashlytics-build.properties
+04-jpa/fabric.properties
+
+05-gui/com_crashlytics_export_strings.xml
+05-gui/crashlytics.properties
+05-gui/crashlytics-build.properties
+05-gui/fabric.properties
+
+06-async/com_crashlytics_export_strings.xml
+06-async/crashlytics.properties
+06-async/crashlytics-build.properties
+06-async/fabric.properties
+
+fight-service/com_crashlytics_export_strings.xml
+fight-service/crashlytics.properties
+fight-service/crashlytics-build.properties
+fight-service/fabric.properties
+
+# Editor-based Rest Client
+04-jpa/.idea/httpRequests
+05-gui/.idea/httpRequests
+06-async/.idea/httpRequests
+fight-service/.idea/httpRequests
+
+# Android studio 3.1+ serialized cache file
+04-jpa/.idea/caches/build_file_checksums.ser
+05-gui/.idea/caches/build_file_checksums.ser
+06-async/.idea/caches/build_file_checksums.ser
+fight-service/.idea/caches/build_file_checksums.ser
+
+### Intellij Patch ###
+# Comment Reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-215987721
+
+04-jpa/*.iml
+04-jpa/modules.xml
+04-jpa/.idea/misc.xml
+04-jpa/*.ipr
+
+05-gui/*.iml
+05-gui/modules.xml
+05-gui/.idea/misc.xml
+05-gui/*.ipr
+
+06-async/*.iml
+06-async/modules.xml
+06-async/.idea/misc.xml
+06-async/*.ipr
+
+fight-service/*.iml
+fight-service/modules.xml
+fight-service/.idea/misc.xml
+fight-service/*.ipr
+
+# Sonarlint plugin
+04-jpa/.idea/sonarlint
+05-gui/.idea/sonarlint
+06-async/.idea/sonarlint
+fight-service/.idea/sonarlint
+
+
+# End of https://www.gitignore.io/api/intellij
