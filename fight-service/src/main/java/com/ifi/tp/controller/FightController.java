@@ -31,7 +31,7 @@ public class FightController {
         return this.fightService.getAllFightsOfTrainer(name);
     }
 
-    @GetMapping(value = "/fights/{trainerName}/{opponentName}", produces = "application/json")
+    @PostMapping(value = "/fights/{trainerName}/{opponentName}", produces = "application/json")
     Fight resultFightBetween(@PathVariable String trainerName, @PathVariable String opponentName) {
         var modelAndView = new ModelAndView("fight");
         return this.fightService.startFight(trainerName, opponentName);

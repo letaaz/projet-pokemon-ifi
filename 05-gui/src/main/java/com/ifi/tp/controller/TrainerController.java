@@ -60,10 +60,10 @@ public class TrainerController {
         return modelAndView;
     }
 
-    @GetMapping("/trainers/{trainerName}/fight/{opponentName}")
+    @PostMapping("/trainers/{trainerName}/fight/{opponentName}")
     ModelAndView startFight(@PathVariable String trainerName, @PathVariable String opponentName) {
         var modelAndView = new ModelAndView("fight_detail");
-        // notifications = fightService.startFight(trainerName, opponentName).getNotifications();
+        fightService.startFight(trainerName, opponentName);
         modelAndView.addObject("fight", new ArrayList<FightNotification>());
         return modelAndView;
     }

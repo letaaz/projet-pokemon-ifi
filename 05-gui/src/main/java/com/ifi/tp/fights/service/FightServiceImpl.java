@@ -26,7 +26,7 @@ public class FightServiceImpl implements FightService {
     @Override
     public Fight startFight(String trainerName, String opponentName) {
         var url = fightServiceUrl + "/fights/{trainerName}/{opponentName}";
-        return restTemplate.getForObject(url, Fight.class, trainerName, opponentName);
+        return restTemplate.postForObject(url, null, Fight.class, trainerName, opponentName);
     }
 
 

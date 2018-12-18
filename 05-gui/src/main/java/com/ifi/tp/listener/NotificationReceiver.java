@@ -12,6 +12,7 @@ public class NotificationReceiver {
         // Call fight service to retrieve current fights
         // Add received notificatins to current fight and save it ?
         System.out.println(notification.getRound() + " : " + notification.getMessage());
+        // web socket
     }
 
 }
